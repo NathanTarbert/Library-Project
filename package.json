@@ -1,6 +1,9 @@
 {
   "name": "library-project-wds",
   "version": "1.0.0",
+  "engines": {
+    "node": "15.x"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -14,7 +17,10 @@
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "heroku": "^7.2.0",
-    "mongoose": "^5.11.13"
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "body-parser": "*",
+    "bcrypt": "5.0.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
